@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[url('Blobby6-Grain2.png')] bg-cover">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoveTogether</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Mogra&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style> 
+    .header {
+        font-family: 'Lora', serif;
+        font-family: 'Mogra', cursive;
+        font-family: 'Pacifico', cursive; 
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Lalezar&family=Lora:wght@700&family=Mogra&family=Pacifico&family=Shrikhand&display=swap');
+    .timestart {
+        font-family: 'Arima Madurai', cursive;
+        font-family: 'Lalezar', cursive;
+        font-family: 'Lora', serif;
+        font-family: 'Mogra', cursive;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Shrikhand', cursive;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Lora:wght@700&family=Pacifico&family=Shrikhand&display=swap');
+    .textbox2 {
+        font-family: 'Lalezar', cursive;
+        font-family: 'Lora', serif;
+        font-family: 'Pacifico', cursive;
+    }
+    </style>
+</head>
+<body cl>
+    <p class="header text-center text-[80px] p-[40px] m-0 text-red-600 animate-bounce ">Been Together  
+        <i class='bx bxs-heart bx-tada' style='color:#ba0c55'  ></i>
+    </p>
+    <div class="body bg-[white] border-[0] w-[80%] h-[350px] ml-auto mr-auto block box-border flex shadow-lg shadow-indigo-500/50 rounded-[20px] ">        
+        <div class="box1 float-left">
+            <p class="name float-left text-center text-[30px] font-serif">Tên 
+                <i class='bx bx-female-sign' style='color:#eb14d6'  ></i><br>
+                21 year old
+            <img src="picture/PictureFemale.png" alt="jett"  class="border-[3px] border-solod border-pink-400 ml-[10px] rounded-full w-[200px] h-[200px] bg-cover shadow-lg shadow-indigo-500/50  animate-spin  ">
+            <i class='bx bxl-facebook-circle cursor-pointer' onclick="redirectTo('https://www.facebook.com/gdp28')" style='color:#074d88'  ></i> <i class='bx bxl-instagram cursor-pointer' onclick="redirectTo('https://www.instagram.com/pddongg28/')" style='color:rgba(0,0,0,0.71)' ></i>
+             </p>
+        </div>
+        <div class="box2 ml-auto mr-auto"> 
+            <p class="timestart text-center text-center text-[40px] p-[30px] m-0 text-blue-600 ">Time Start: 21-5-2020</p>
+            <div class="textbox2 border-[2px]; bg-white border-[2px] border-solid border-red-600 w-[100%] h-[48%] justify-center text-center items-center  rounded-full text-[30px]" >
+                <p class="text-[40px]">Day Together</p> <i class='bx bx-heart bx-lg'  style='color:#ff0cc4'  ></i> <br>
+                <div id="time"></div>    
+            </div>
+
+        </div>
+        <div class="box3 float-right">
+            <p class="name float-right text-center text-[30px] font-serif">Tên <i class='bx bx-male-sign' style='color:#0c81e7'  ></i><br>
+                21 year old
+            <img src="picture/PictureMale.jpg" alt="yoru"  class="border-[3px] border-solod border-cyan-600 rounded-[20px] mr-[10px] rounded-full w-[200px] h-[200px] bg-cover shadow-lg shadow-indigo-500/50 animate-spin">
+            <i class='bx bxl-facebook-circle cursor-pointer'onclick="redirectTo('https://www.facebook.com/gdp28')" style='color:#074d88'  ></i> <i class='bx bxl-instagram cursor-pointer' onclick="redirectTo('https://www.instagram.com/pddongg28/')" style='color:rgba(0,0,0,0.71)' ></i>
+                </p>
+        </div>
+    </div>
+    <audio class="ml-auto mr-auto mt-[20px] shadow-indigo-500/50" controls>  
+        <source src="hinhtraitimremix.mp3" type="audio/mp3">
+        <source src="hinhtraitimremix.ogg" type="audio/ogg">
+      </audio>
+</body>
+</html>
